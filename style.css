@@ -37,7 +37,7 @@ body{
 
 .coca{
     height: 636px;
-    width: 1291px;
+    width: 100%;
 }
 
 .garrafa{
@@ -75,16 +75,19 @@ body{
 }
 
 @media (max-width: 768px) {
-    header{
-        padding-right: 100px;
+    .menu{
+        padding-right: 10px;
 
 }
 .texto{
     transform: translateX(0);
-    top: 75px;
-    font-size: 1.5rem;
-    width: 150px;
+    top: 10px;
+    width: 75px;
+    height: 50px;
     text-align: center;
+}
+.coca{
+    height: 150px;
 }
 
 .garrafa{
