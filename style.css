@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+     background: linear-gradient(to bottom, #cf2425 0%,   #df5e62 55%, #db484c 100%);
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 5vh;
+}
+
+.menu{
+    height: 19px;
+    width: 97px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.main{
+    display: flex;
+    flex-grow: 1;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+.coca{
+    height: 636px;
+    width: 1291px;
+}
+
+.garrafa{
+    height: 755px;
+    width: 201px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.texto{
+    height: 88px;
+    width: 212 px;
+    left: 35%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    align-items: end;
+    align-content: left;
+    justify-content: flex-end;
+}
+
+.map{
+    height: 48px;
+    width: 64px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    header{
+        padding-right: 100px;
+
+}
+.texto{
+    transform: translateX(0);
+    top: 75px;
+    font-size: 1.5rem;
+    width: 150px;
+    text-align: center;
+}
+
+.garrafa{
+    height: 80vh;
+    width: 40vw; 
+}
+}
